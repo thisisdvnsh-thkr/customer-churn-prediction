@@ -10,8 +10,7 @@
 
 <br>
 
-> A machine learning system designed to predict customer churn, identify key churn drivers, and enable proactive retention strategies using data-driven insights.
-
+> > Built as an end-to-end machine learning pipeline — from raw data processing to predictive modeling and business decision support.
 ---
 
 ## 📌 Problem Statement
@@ -82,14 +81,29 @@ Designed as a modular ML pipeline separating preprocessing, modeling, and evalua
 ## 📊 Key Insights
 
 ### 🔹 Churn Behavior
-- Customers with monthly contracts show higher churn rates
-- Short tenure customers are more likely to churn
+- Customers with **short tenure** are significantly more likely to churn  
+- Long-term customers show higher retention stability  
+
+---
 
 ### 🔹 Pricing Impact
-- Higher monthly charges correlate with increased churn probability
+- Customers with **higher monthly charges** exhibit increased churn probability  
+- Pricing sensitivity plays a key role in retention  
 
-### 🔹 Service Usage
-- Customers with fewer services tend to churn more frequently
+---
+
+### 🔹 Model Insights
+- Top factors influencing churn include:
+  - Contract type  
+  - Tenure  
+  - Monthly charges  
+  - Internet service  
+
+---
+
+### 🔹 Risk Identification
+- High-risk customers can be identified early using model predictions  
+- Enables proactive retention strategies
 
 ### 📈 Model Performance
 
@@ -101,20 +115,36 @@ Designed as a modular ML pipeline separating preprocessing, modeling, and evalua
 
 ## 📊 Visual Insights
 
+## 📊 Visual Insights
+
 ### 📉 Churn Distribution
+Shows overall churn vs non-churn customers
 ![Churn](./visuals/churn-distribution.png)
 
+---
+
 ### 📊 Tenure vs Churn
+Short tenure customers are more likely to churn
 ![Tenure](./visuals/tenure-vs-churn.png)
 
-### 💰 Charges vs Churn
+---
+
+### 💰 Monthly Charges vs Churn
+Higher charges correlate with increased churn risk
 ![Charges](./visuals/charges-vs-churn.png)
 
+---
+
 ### 📉 Confusion Matrix
+Model classification performance
 ![Confusion](./visuals/confusion-matrix.png)
 
+---
+
 ### 🔍 Feature Importance
+Top drivers influencing churn prediction
 ![Features](./visuals/feature-importance.png)
+
 ### 📌 Key Metrics
 
 - Churn Rate = Customers Lost / Total Customers

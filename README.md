@@ -99,11 +99,22 @@ Designed as a modular ML pipeline separating preprocessing, modeling, and evalua
 | Random Forest         | ~85%     | 0.91    |
 | XGBoost               | ~87%     | 0.92    |
 
-#### 📊 Visual Insights
-- 📉 Churn Distribution
-- 📊 Feature Importance
-- 📉 Confusion Matrix
+## 📊 Visual Insights
 
+### 📉 Churn Distribution
+![Churn](./visuals/churn-distribution.png)
+
+### 📊 Tenure vs Churn
+![Tenure](./visuals/tenure-vs-churn.png)
+
+### 💰 Charges vs Churn
+![Charges](./visuals/charges-vs-churn.png)
+
+### 📉 Confusion Matrix
+![Confusion](./visuals/confusion-matrix.png)
+
+### 🔍 Feature Importance
+![Features](./visuals/feature-importance.png)
 ### 📌 Key Metrics
 
 - Churn Rate = Customers Lost / Total Customers
